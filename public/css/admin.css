@@ -1,0 +1,92 @@
+body {
+    position: relative;
+    /* background: url("../img/bg-admin.png") repeat 0 0 transparent;
+    */
+    background-color: #D14841 !important;
+}
+.form {
+    background-color: #B8312F;
+    border: 1px solid #B8312F;
+    position: absolute;
+    left: 400px;
+    right: 400px;
+    padding: 30px 20px 20px 20px;
+}
+@font-face {
+    font-family: Gist;
+    src: url("../font/Gist.otf");
+}
+.center {
+    font-family: Gist;
+    font-size: 3em;
+    text-align: center;
+    color: #FFF;
+}
+.text-render {
+    color: #FBA026;
+}
+#btn-bg {
+    background-color: #F37934;
+}
+
+/* label color */
+.input-field label {
+    color: #EBEBEB;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #F37934;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #F37934;
+    box-shadow: 0 1px 0 0 #F37934;
+    color: #fff;
+}
+
+/* label focus color */
+.input-field input[type=password]:focus + label {
+    color: #F37934;
+}
+
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #F37934;
+    box-shadow: 0 1px 0 0 #F37934;
+    color: #fff;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #F37934;
+    color: #fff;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #F37934;
+    color: #fff;
+}
+
+/* valid color */
+.input-field input[type=password].valid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #F37934;
+    color: #fff;
+}
+
+/* invalid color */
+.input-field input[type=password].invalid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #F37934;
+    color: #fff;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #fff;
+}

@@ -1,0 +1,27 @@
+.mainbox-body{
+    width: 970px;
+    margin: 20px auto 50px auto;
+	background: #FFFFFF;
+    border: 1px solid #fff;
+    box-shadow: 1px 3px 4px #B9B9B9;
+    background: #fff url("../img/linebottom.png") repeat-x scroll left bottom
+}
+
+.content-general{
+	margin: 15px 15px 15px 15px;
+	padding-left: 15px; 
+	padding-right: 15px; 
+}
+
+.require{
+	color: #e81c1c;
+	font-size: 15px;
+}
+
+.sub-content{
+	border-bottom: 1px dotted #c2c2c2;
+}
+.box-wrapper {
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
